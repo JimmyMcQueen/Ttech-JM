@@ -27,14 +27,17 @@ header nav {
     margin-top: 20px;
 }
 
-header nav ul {
-    list-style: none;
+header nav ol {
+    list-style: decimal;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     padding: 0;
+    flex-wrap: wrap;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+header nav ol li {
+    margin: 5px;
 }
 
 header nav a {
